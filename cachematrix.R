@@ -33,7 +33,7 @@ cacheSolve <- function(x, ...) {
   ## If so, then cacheSolve should retrieve the inverse from the cache.
   ## and skip the computation of inverse matrix
   if(!is.null(m)) {
-    message("getting cached data")
+    message("getting cached inverse matrix data")
     return(m)
   }
   ## Otherwise: If not cached, compute inverse of matrix
